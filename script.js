@@ -63,6 +63,7 @@ document.getElementById('totalAcertos').innerHTML = "O total de acertos foi " + 
     {
       let li= document.createElement("li");
       li.append(numSort[i]);
+      li.classList.add("result");
       document.getElementById('NumSort').append(li);
     }
 }
