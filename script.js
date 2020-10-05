@@ -74,7 +74,7 @@ function alert2(title, text)
 Swal.fire({
   title: title,
   html: text,
-  timer: 3000,
+  timer: 5000,
   timerProgressBar: true,
   willOpen: () => {
     Swal.showLoading()
